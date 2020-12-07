@@ -1,0 +1,7 @@
+刷入OpenWrt的正确姿势：
+
+1.在breed下编辑环境变量，新增字段xiaomi.r3g.bootfw，值为2，保存
+2.刷入文件名为*-initramfs-kernel.bin的过渡包
+3.登录192.168.9.218，密码password，系统-备份/升级，上传*-squashfs-sysupgrade.bin升级系统
+
+注：过渡包仅在首次从其他非OpenWrt固件刷为OpenWrt固件时使用，此后升级OpenWrt固件须使用*-squashfs-sysupgrade.bin文件
