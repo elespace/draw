@@ -1,4 +1,4 @@
-刷入OpenWrt的正确姿势：
+Redmi AC2100刷入OpenWrt固件的正确姿势：
 
 1.在breed下编辑环境变量，新增字段xiaomi.r3g.bootfw，值为2，保存
 2.刷入文件名为*-initramfs-kernel.bin的过渡包
